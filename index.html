@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>hangman</title>
+    
+  </head>
+  <h1>Play HangMan.</h1> 
+  <h1>Guess the dessert.</h1> 
+  <body>
+      <div id="instruction">
+          <pre><p>Press Start button and have FUN..!</p></pre>
+          <pre><h1><span id="alert2"></span> </h1></pre>
+
+            <pre><p>+--------------------------------------+</p></pre>
+            <pre><p>| All your Guesses:<span id="demo">                                                   </span> |</p></pre>
+            <pre><p>+------------------------------------------------+</p></pre>
+            <pre><p>| Wrong Guess: <span id="wrong-letter"></span> |</p></pre>
+            <pre><p>| Wins: <span id="score"></span> |</p></pre>
+            <pre><h1><span id="alert1"></span> </h1></pre>
+            <pre><p>+-----------------------------------------------------+</p></pre>
+          
+        </div>
+    <script src="hangman.js"></script>
+    <!--<form onsubmit="index.html">-->
+        <form onsubmit = myfunction();>
+          <input type="submit" value="Start Game">
+    </form>
+  </body>
+</html>
